@@ -1,0 +1,197 @@
+* {
+  margin: 0px auto;
+}
+
+body {
+  background: url('../images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+img {
+  border: dashed 5px #FF9900;
+  margin: 10px;
+}
+
+ul {
+  color: white;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+#header {
+  margin-top: 60px; 
+  text-align: center;
+  background-color: #FF9900;
+  border-bottom: 5px solid #6599FF;
+  border-top: 5px solid #6599FF;
+  color: white;
+  padding-top: 10px;
+}
+
+#menu {
+  position: fixed;   
+  top: 0;            
+  width: 100%;       
+  z-index: 1000;     
+  text-align: center;  
+  background-color: #097054;
+  border: 1px solid #FF9900;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2em;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu li {
+  display: inline;
+  padding-left: 5px;  
+}
+
+#menu li a:hover {
+  background-color: orange;      
+  text-decoration: underline solid blue; 
+}
+
+#footer {
+  position: fixed;   
+  bottom: 0;         
+  width: 100%;       
+  background-color: #097054;
+  text-align: center;
+  color: white;
+  border-top: 5px solid black;
+  clear: both;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #443266;
+  background-color: white;
+  text-decoration: none;
+}
+
+#imageLeft {
+  float: left;       
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#imageRight {
+  float: right;      
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#textMain {
+  clear: both;       
+}
+
+#imageToHide {
+  float: left;       
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#cookieEU {
+  position: absolute; 
+  top: 30%;           
+  left: 25%;          
+  width: 50%;         
+  border: 2px solid red;
+  background-color: white;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  box-shadow: 2px 2px 50px black;
+  z-index: 500;
+}
+
+#textOverflow {
+  overflow-y: scroll; 
+  overflow-x: hidden; 
+  height: 250px;
+  text-align: justify;
+  border: 5px solid black;
+  background-color: white;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+#textCentral {
+  margin-top: 10px;
+  padding: 15px;
+  border: 5px dashed black;
+  background-color: white;
+  margin: 10px 250px ;
+  border-radius: 30px;
+}
+
+.button {
+  background-color: #097054;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@media all and (max-width: 500px) {
+  #imageLeft {
+    float: none;     
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  #imageRight {
+    float: none;     
+    text-align: center;
+    clear: both;
+    padding-bottom: 5px;
+  }
+  
+  #textCentral {
+    margin: 0px 0px;
+  }
+  
+  #imageToHide {
+    float: none;     
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #textOverflow {
+    margin-right: 0px;
+  }
+  
+  #header {
+    margin-top: 80px; 
+  }
+}
+
+@media all and (max-width: 300px) {
+  #header {
+    margin-top: 120px;
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quartier S.A.</title>
+    <link rel="stylesheet" href="estiloswebpropia.css">
+</head>
+<body>
+
+    <div id="cookie-overlay" class="cookie-overlay"></div>
+    <div id="cookie-banner" class="cookie-popup">
+        <h2>Aviso de Cookies</h2>
+        <p>Para acceder a la web oficial de Nintendo, debes aceptar el uso de cookies para mejorar tu experiencia de navegación.</p>
+        <button class="btn-nintendo" onclick="aceptarCookies()">Aceptar y Continuar</button>
+    </div>
+
+    <nav class="nintendo-nav">
+        <div class="logo">Quartier S.A.</div>
+        <ul class="nav-links">
+            <li><a href="InazumaEleven.html">Inazuma Eleven</a></li>
+            <li><a href="Pokémon.html">Pokémon</a></li>
+            <li><a href="yo-kai watch.html">Yo-Kai Watch</a></li>
+        </ul>
+    </nav>
+
+    <header class="main-header">
+        <h1>Bienvenido a la página oficial de Quartier S.A.</h1>
+    </header>
+
+    <div class="container">
+        <section class="info-section">
+            <div class="row">
+                <div class="text">
+                    <h2>Inazuma Eleven</h2>
+                    <p>Una serie protagonizada por Mark Evans, usa el fútbol para enseñar valores a la vez que entretener.</p>
+                </div>
+                <div class="image-placeholder">
+                    <img src="iamgen ie.jpeg" alt="Imagen Inazuma Eleven">
+                </div>
+            </div>
+            
+            <div class="row reverse">
+                <div class="text">
+                    <h2>Pokémon</h2>
+                    <p>La legendaria serie de Pokémon, en un mundo donde los pokemons y humanos coexisten Ash, el protagonista, junto a sus amigos busca conseguir su sueño de ser campeón de la liga pokémon para convertirse en el entrenador más fuerte.</p>
+                </div>
+                <div class="image-placeholder">
+                    <img src="pokemon-original-series-1671869058.avif" alt="Imagen Pokémon">
+                </div>
+           
+            </div>
+                        <div class="row">
+                <div class="text">
+                    <h2>Yo-Kai Watch</h2>
+                    <p>Un mundo en el que gracias a un reloj especial se consiguen ver fantasmas que ocultan miles de sopresas, aventúrate con Nathan el protagonista en esta intrepidante aventura.</p>
+                </div>
+                <div class="image-placeholder">
+                    <img src="yo-kai-watch.jpeg" alt="Imagen Yo-Kai Watch">
+                </div>
+            </div>
+        </section>
+
+        <aside class="side-menu">
+            <a href="#"><img src="escudo-de-inazuma-japon-logo-png_seeklogo-557175.png" alt="Icono IE"></a>
+            <a href="#"><img src="Pokebola-pokeball-png-0.png" alt="Icono PKMN"></a>
+            <a href="#"><img src="relojykw.png" alt="Icono YKW"></a>
+        </aside>
+    </div>
+
+
+
+    <script>
+        function aceptarCookies() {
+            document.getElementById('cookie-banner').style.display = 'none';
+            document.getElementById('cookie-overlay').style.display = 'none';
+            document.body.style.overflow = 'auto'; // Habilita el scroll tras aceptar
+        }
+
+        window.onload = function() {
+            document.body.style.overflow = 'hidden';
+        }
+    </script>
+            <ul>
+                <a href="página web de mis prácticas.html" style="color: #ff0505;">Volver al Inicio</a></li>
+            </ul>
+
+</body>
+</html>

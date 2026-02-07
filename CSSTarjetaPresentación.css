@@ -154,3 +154,20 @@
 .post-btn:hover {
   color: #3498db;
 }
+
+.btn-inicio {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #3498db;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.btn-inicio:hover {
+  background-color: #2980b9;
+}
